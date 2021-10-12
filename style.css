@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #6E85B2;
+    color: #333;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: #FEF1E6;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+.header a:hover {
+    color: #00008B;
+    background-color: #DBD0C0;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 480px;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
+
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: courier, sans-serif;
+}
+
+.content .penulis {
+    margin-top: -5px;
+    font-size: 11px;
+}
+.content .penulis a {
+    color: #00008B;
+    font-size: 11px;
+}
+
+.content h3 {
+    padding: 10px 0px 0px 0px;
+}
+.content p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.content a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: #333;
+    color: #E5DCC3;
+    padding: 15px;
+}
+.footer .copy {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1000px){
+    .container {
+        width: 100%;
+    }
+    .hero {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: 0 0px;
+    }
+}
